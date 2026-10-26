@@ -35,10 +35,15 @@ ol.steps li{margin-bottom:.6rem}
 .family{display:flex;flex-wrap:wrap;gap:.6rem}
 .family span{border:1px solid var(--line);border-radius:999px;padding:.35rem .8rem;font-size:.92rem;background:var(--card)}
 footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.9rem}
+header .wrap{flex-wrap:wrap;gap:.5rem 1rem}
+header nav{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem}
+header nav a{margin-left:0}
+@media(max-width:40rem){header .wrap{flex-direction:column;align-items:flex-start}}
+img,.card{max-width:100%}
 </style>
 </head>
 <body>
-<header><div class="wrap"><span class="brand">Premier Choice Corporation</span><nav><a href="#studio">Studio</a><a href="#series">Series</a><a href="#contact">Contact</a></nav></div></header>
+<header><div class="wrap"><span class="brand">Premier Choice Corporation</span><nav><a href="#homes">What we build</a><a href="#studio">Studio</a><a href="tools.html">Tools we use</a><a href="#contact">Contact</a></nav></div></header>
 <main>
 <div class="wrap hero">
 <p class="eyebrow">Premier Choice Intelligence · Studio</p>
@@ -46,6 +51,14 @@ footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);f
 <p class="lede">We build AI-assisted media studios that make original, rights-cleared video and keep a record of every step, from the first idea to the finished piece.</p>
 <p class="status"><b>Pre-launch.</b> Our first tutorial series is in production.</p>
 </div>
+<section id="homes"><div class="wrap">
+<h2>Three homes for everything we build</h2>
+<div class="grid">
+<div class="card"><h3>Premier Choice Intelligence</h3><p>Software: apps, AI agents and the systems that run our own company, offered to others once they have proved themselves in our own work.</p></div>
+<div class="card"><h3>Premier Choice Works</h3><p>Work that AI can take on, and trusted subcontracted services, so people spend their time where it counts.</p></div>
+<div class="card"><h3>Premier Experiences</h3><p>Things people get to experience: cars, trips, excursions and adventures.</p></div>
+</div>
+</div></section>
 <section id="studio"><div class="wrap">
 <h2>What we make</h2>
 <div class="grid">
@@ -62,7 +75,7 @@ footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);f
 <li>An independent check approves it before it's published.</li>
 <li>We cut the long piece into short clips and track what each one earns.</li>
 </ol>
-<p class="lede" style="margin-top:1rem">The series teaches that loop, so creators and businesses can run their own studio.</p>
+<p class="lede" style="margin-top:1rem">The series teaches that loop, so creators and businesses can run their own studio. See the <a href="tools.html">tools we use</a>.</p>
 </div></section>
 <section><div class="wrap">
 <h2>The Premier Choice family</h2>
